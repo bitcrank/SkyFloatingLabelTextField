@@ -12,5 +12,12 @@
 import PackageDescription
 
 let package = Package(
-  name: "SkyFloatingLabelTextField"
+  name: "SkyFloatingLabelTextField",
+  products: [
+    .library(name: "SkyFloatingLabelTextField", targets: ["SkyFloatingLabelTextField"]),
+  ],
+  targets: [
+    .target(name: "SkyFloatingLabelTextField")
+  ],
+  swiftLanguageVersions: [.v4, .v4_2, .v5]
 )
