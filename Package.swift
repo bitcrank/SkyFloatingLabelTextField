@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0
 
 //  Copyright 2016 Skyscanner Ltd
 //
